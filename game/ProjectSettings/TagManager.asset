@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: floor
+    uniqueID: 716780957
+    locked: 0
+  - name: loot
+    uniqueID: 2692142389
+    locked: 0
+  - name: tiles
+    uniqueID: 1144006579
+    locked: 0
+  - name: player
+    uniqueID: 2558162889
+    locked: 0
+  - name: fx
+    uniqueID: 3438693271
+    locked: 0
+  - name: ui
+    uniqueID: 817721165
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
