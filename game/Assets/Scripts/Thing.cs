@@ -352,7 +352,7 @@ namespace Rog {
 			}
 			prevDir = dir;
 			dir = DirTo(p);
-			prevPos = p;
+			prevPos = pos;
 			pos = p;
 			if((id & Map.ACTOR_MASK) != 0) map.things[p] = this;
 			if((id & Map.TRIGGER_MASK) != 0) {
