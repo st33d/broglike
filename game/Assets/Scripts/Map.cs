@@ -231,12 +231,12 @@ namespace Rog {
 				case ID.GOOD:
 					player.thing.EndAct();
 					foreach(var t in goodies) {
-						t.EndAct();
+						if(t.hp > 0) t.EndAct();
 					}
 					break;
 				case ID.BAD:
 					foreach(var t in baddies) {
-						t.EndAct();
+						if(t.hp > 0) t.EndAct();
 					}
 					break;
 			}
